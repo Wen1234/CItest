@@ -8,7 +8,6 @@ public class CalculatorMain {
 		return a+b;
 	}
 	public Object sub(int a, int b) {
-		// TODO Auto-generated method stub
 		return a-b;
 	}
 }
