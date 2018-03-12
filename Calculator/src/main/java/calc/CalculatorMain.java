@@ -9,11 +9,7 @@ public class CalculatorMain {
 		System.out.println("Addition:"+res);
 		return a+b;
 	}
-	public int sub(int a, int b) {
-		int res=a-b;
-		System.out.println("Subtracion:"+res);
-		return a-b;
-	}
+	
     public int mul(int a, int b) {
     	    int res=a*b;
     	    System.out.println("Multiplication:"+res);
