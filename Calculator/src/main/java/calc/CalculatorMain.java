@@ -30,5 +30,11 @@ public class CalculatorMain {
 			return a/b;
 		}
 	}
+    public int rem(int a,int b)
+    {
+    	  int res=a%b;
+    	  System.out.println("Reminder:"+res);
+    	  return a%b;
+    }
 	
 }
