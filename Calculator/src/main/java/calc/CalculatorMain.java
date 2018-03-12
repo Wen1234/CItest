@@ -19,5 +19,16 @@ public class CalculatorMain {
     	    System.out.println("Multiplication:"+res);
     	    return a*b;
     }
+    public int div(int a, int b) {
+		if(b==0)
+		{
+			return 0;
+		}
+		else {
+			int res=a/b;
+			System.out.println("Div:"+res);
+			return a/b;
+		}
+	}
 	
 }
