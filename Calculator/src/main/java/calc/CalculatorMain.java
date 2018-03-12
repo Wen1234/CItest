@@ -11,7 +11,7 @@ public class CalculatorMain {
 	}
 	public int sub(int a, int b) {
 		int res=a-b;
-		System.out.println("Subtracion::"+res);
+		System.out.println("Subtracion:"+res);
 		return a-b;
 	}
     public int mul(int a, int b) {
