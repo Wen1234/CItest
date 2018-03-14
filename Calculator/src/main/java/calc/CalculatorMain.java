@@ -42,5 +42,12 @@ public class CalculatorMain {
     	System.out.println("Pow"+res);
     	return a^b;
     }
+    public int sqt(int a)
+    {
+    	int res = (int) Math.sqrt(a);
+    	System.out.println("Square root"+res);
+    	return (int)Math.sqrt(a);
+    }
+    
 	
 }
