@@ -38,9 +38,9 @@ public class CalculatorMain {
     }
     public int pow(int a, int b)
     {
-    	int res = a^b;
+    	int res = (int)Math.pow(a, b);
     	System.out.println("Pow"+res);
-    	return a^b;
+    	return (int)Math.pow(a, b);
     }
     public int sqt(int a)
     {

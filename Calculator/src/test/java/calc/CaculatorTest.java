@@ -45,7 +45,7 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testPow() {
-		assertEquals(0,calc.pow(4, 4));
+		assertEquals(27,calc.pow(3, 3));
 	}
 	@Test
 	public void testSqt() {
