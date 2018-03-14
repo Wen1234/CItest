@@ -47,5 +47,8 @@ public class CaculatorTest {
 	public void testPow() {
 		assertEquals(27,calc.pow(3, 3));
 	}
-    
+    @Test
+    public void testSqrt() {
+    	    assertEquals(2,calc.sqrt(4));
+    }
 }
