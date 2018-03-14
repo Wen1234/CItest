@@ -36,5 +36,11 @@ public class CalculatorMain {
     	  System.out.println("Reminder:"+res);
     	  return a%b;
     }
+    public int pow(int a, int b)
+    {
+    	int res = a^b;
+    	System.out.println("Pow"+res);
+    	return a^b;
+    }
 	
 }

@@ -43,4 +43,8 @@ public class CaculatorTest {
 	public void testRemainder() {
 	    assertEquals(1,calc.rem(3,2));
 	}
+	@Test
+	public void testPow() {
+		assertEquals(0,calc.pow(4, 4));
+	}
 }
